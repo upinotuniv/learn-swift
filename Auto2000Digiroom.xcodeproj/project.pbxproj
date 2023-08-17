@@ -60,8 +60,8 @@
 				CE43959C2A820B1A008B5719 /* SceneDelegate.swift */,
 				CE43959E2A820B1A008B5719 /* ViewController.swift */,
 				CE4395A02A820B1A008B5719 /* Main.storyboard */,
-				CE4395A32A820B1C008B5719 /* Assets.xcassets */,
 				CE4395A52A820B1C008B5719 /* LaunchScreen.storyboard */,
+				CE4395A32A820B1C008B5719 /* Assets.xcassets */,
 				CE4395A82A820B1C008B5719 /* Info.plist */,
 			);
 			path = Auto2000Digiroom;
