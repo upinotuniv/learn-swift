@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE43956B2A81F1FD008B5719 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE43956A2A81F1FD008B5719 /* HomeView.swift */; };
+		CE43956D2A81F221008B5719 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE43956C2A81F221008B5719 /* HomePresenter.swift */; };
+		CE43956F2A81F232008B5719 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE43956E2A81F232008B5719 /* HomeInteractor.swift */; };
+		CE4395712A81F241008B5719 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4395702A81F241008B5719 /* HomeRouter.swift */; };
+		CE4395732A81F313008B5719 /* NewCarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4395722A81F313008B5719 /* NewCarsView.swift */; };
+		CE4395752A81F31E008B5719 /* NewCarsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4395742A81F31E008B5719 /* NewCarsPresenter.swift */; };
+		CE4395772A81F328008B5719 /* NewCarsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4395762A81F328008B5719 /* NewCarsInteractor.swift */; };
+		CE4395792A81F332008B5719 /* NewCarsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4395782A81F332008B5719 /* NewCarsRouter.swift */; };
+		CE43957B2A81F354008B5719 /* ServiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE43957A2A81F354008B5719 /* ServiceView.swift */; };
+		CE43957D2A81F35F008B5719 /* ServicePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE43957C2A81F35F008B5719 /* ServicePresenter.swift */; };
+		CE43957F2A81F370008B5719 /* ServiceInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE43957E2A81F370008B5719 /* ServiceInteractor.swift */; };
+		CE4395812A81F382008B5719 /* ServiceRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4395802A81F382008B5719 /* ServiceRouter.swift */; };
+		CE4395832A81F39C008B5719 /* LiveChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4395822A81F39C008B5719 /* LiveChatView.swift */; };
+		CE4395852A81F3B5008B5719 /* LiveChatPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4395842A81F3B5008B5719 /* LiveChatPresenter.swift */; };
+		CE4395872A81F3E6008B5719 /* LiveChatInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4395862A81F3E6008B5719 /* LiveChatInteractor.swift */; };
+		CE4395892A81F3FB008B5719 /* LiveChatRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4395882A81F3FB008B5719 /* LiveChatRouter.swift */; };
+		CE43958B2A81F42D008B5719 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE43958A2A81F42D008B5719 /* Extensions.swift */; };
+		CE43958D2A81F446008B5719 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE43958C2A81F446008B5719 /* Constants.swift */; };
 		CEB6E8922A808ED3008C1AA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB6E8912A808ED3008C1AA5 /* AppDelegate.swift */; };
 		CEB6E8942A808ED3008C1AA5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB6E8932A808ED3008C1AA5 /* SceneDelegate.swift */; };
 		CEB6E8962A808ED3008C1AA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB6E8952A808ED3008C1AA5 /* ViewController.swift */; };
@@ -16,6 +34,24 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE43956A2A81F1FD008B5719 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		CE43956C2A81F221008B5719 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		CE43956E2A81F232008B5719 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		CE4395702A81F241008B5719 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		CE4395722A81F313008B5719 /* NewCarsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCarsView.swift; sourceTree = "<group>"; };
+		CE4395742A81F31E008B5719 /* NewCarsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCarsPresenter.swift; sourceTree = "<group>"; };
+		CE4395762A81F328008B5719 /* NewCarsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCarsInteractor.swift; sourceTree = "<group>"; };
+		CE4395782A81F332008B5719 /* NewCarsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCarsRouter.swift; sourceTree = "<group>"; };
+		CE43957A2A81F354008B5719 /* ServiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceView.swift; sourceTree = "<group>"; };
+		CE43957C2A81F35F008B5719 /* ServicePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicePresenter.swift; sourceTree = "<group>"; };
+		CE43957E2A81F370008B5719 /* ServiceInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceInteractor.swift; sourceTree = "<group>"; };
+		CE4395802A81F382008B5719 /* ServiceRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceRouter.swift; sourceTree = "<group>"; };
+		CE4395822A81F39C008B5719 /* LiveChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveChatView.swift; sourceTree = "<group>"; };
+		CE4395842A81F3B5008B5719 /* LiveChatPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveChatPresenter.swift; sourceTree = "<group>"; };
+		CE4395862A81F3E6008B5719 /* LiveChatInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveChatInteractor.swift; sourceTree = "<group>"; };
+		CE4395882A81F3FB008B5719 /* LiveChatRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveChatRouter.swift; sourceTree = "<group>"; };
+		CE43958A2A81F42D008B5719 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		CE43958C2A81F446008B5719 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		CEB6E88E2A808ED3008C1AA5 /* Auto2000.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Auto2000.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEB6E8912A808ED3008C1AA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEB6E8932A808ED3008C1AA5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +73,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE43955B2A81EDD9008B5719 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				CE4395662A81F0F1008B5719 /* LiveChat */,
+				CE4395652A81F0C0008B5719 /* Service */,
+				CE4395642A81F0B7008B5719 /* NewCars */,
+				CE4395632A81F0A8008B5719 /* Home */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		CE4395632A81F0A8008B5719 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CE43956A2A81F1FD008B5719 /* HomeView.swift */,
+				CE43956C2A81F221008B5719 /* HomePresenter.swift */,
+				CE43956E2A81F232008B5719 /* HomeInteractor.swift */,
+				CE4395702A81F241008B5719 /* HomeRouter.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CE4395642A81F0B7008B5719 /* NewCars */ = {
+			isa = PBXGroup;
+			children = (
+				CE4395722A81F313008B5719 /* NewCarsView.swift */,
+				CE4395742A81F31E008B5719 /* NewCarsPresenter.swift */,
+				CE4395762A81F328008B5719 /* NewCarsInteractor.swift */,
+				CE4395782A81F332008B5719 /* NewCarsRouter.swift */,
+			);
+			path = NewCars;
+			sourceTree = "<group>";
+		};
+		CE4395652A81F0C0008B5719 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CE43957A2A81F354008B5719 /* ServiceView.swift */,
+				CE43957C2A81F35F008B5719 /* ServicePresenter.swift */,
+				CE43957E2A81F370008B5719 /* ServiceInteractor.swift */,
+				CE4395802A81F382008B5719 /* ServiceRouter.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		CE4395662A81F0F1008B5719 /* LiveChat */ = {
+			isa = PBXGroup;
+			children = (
+				CE4395822A81F39C008B5719 /* LiveChatView.swift */,
+				CE4395842A81F3B5008B5719 /* LiveChatPresenter.swift */,
+				CE4395862A81F3E6008B5719 /* LiveChatInteractor.swift */,
+				CE4395882A81F3FB008B5719 /* LiveChatRouter.swift */,
+			);
+			path = LiveChat;
+			sourceTree = "<group>";
+		};
+		CE4395672A81F149008B5719 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				CE43958A2A81F42D008B5719 /* Extensions.swift */,
+				CE43958C2A81F446008B5719 /* Constants.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		CE4395682A81F157008B5719 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		CEB6E8852A808ED2008C1AA5 = {
 			isa = PBXGroup;
 			children = (
@@ -56,12 +163,15 @@
 		CEB6E8902A808ED3008C1AA5 /* Auto2000 */ = {
 			isa = PBXGroup;
 			children = (
+				CE4395682A81F157008B5719 /* Resources */,
+				CE4395672A81F149008B5719 /* Common */,
+				CE43955B2A81EDD9008B5719 /* Modules */,
 				CEB6E8912A808ED3008C1AA5 /* AppDelegate.swift */,
 				CEB6E8932A808ED3008C1AA5 /* SceneDelegate.swift */,
 				CEB6E8952A808ED3008C1AA5 /* ViewController.swift */,
 				CEB6E8972A808ED3008C1AA5 /* Main.storyboard */,
-				CEB6E89A2A808ED3008C1AA5 /* Assets.xcassets */,
 				CEB6E89C2A808ED3008C1AA5 /* LaunchScreen.storyboard */,
+				CEB6E89A2A808ED3008C1AA5 /* Assets.xcassets */,
 				CEB6E89F2A808ED3008C1AA5 /* Info.plist */,
 			);
 			path = Auto2000;
@@ -139,8 +249,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEB6E8962A808ED3008C1AA5 /* ViewController.swift in Sources */,
+				CE4395812A81F382008B5719 /* ServiceRouter.swift in Sources */,
+				CE43956B2A81F1FD008B5719 /* HomeView.swift in Sources */,
+				CE43957D2A81F35F008B5719 /* ServicePresenter.swift in Sources */,
+				CE4395772A81F328008B5719 /* NewCarsInteractor.swift in Sources */,
+				CE4395732A81F313008B5719 /* NewCarsView.swift in Sources */,
+				CE43957B2A81F354008B5719 /* ServiceView.swift in Sources */,
+				CE43957F2A81F370008B5719 /* ServiceInteractor.swift in Sources */,
+				CE4395832A81F39C008B5719 /* LiveChatView.swift in Sources */,
+				CE4395852A81F3B5008B5719 /* LiveChatPresenter.swift in Sources */,
+				CE4395872A81F3E6008B5719 /* LiveChatInteractor.swift in Sources */,
+				CE43958D2A81F446008B5719 /* Constants.swift in Sources */,
+				CE4395712A81F241008B5719 /* HomeRouter.swift in Sources */,
 				CEB6E8922A808ED3008C1AA5 /* AppDelegate.swift in Sources */,
+				CE43956F2A81F232008B5719 /* HomeInteractor.swift in Sources */,
+				CE4395752A81F31E008B5719 /* NewCarsPresenter.swift in Sources */,
+				CE43958B2A81F42D008B5719 /* Extensions.swift in Sources */,
+				CE43956D2A81F221008B5719 /* HomePresenter.swift in Sources */,
 				CEB6E8942A808ED3008C1AA5 /* SceneDelegate.swift in Sources */,
+				CE4395892A81F3FB008B5719 /* LiveChatRouter.swift in Sources */,
+				CE4395792A81F332008B5719 /* NewCarsRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,8 +420,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,8 +446,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
