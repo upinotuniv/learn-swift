@@ -14,6 +14,8 @@
 		CE6A53DF2A7A3695004CB9B6 /* Astra_Practice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE6A53DD2A7A3695004CB9B6 /* Astra_Practice.xcdatamodeld */; };
 		CE6A53E12A7A3696004CB9B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE6A53E02A7A3696004CB9B6 /* Assets.xcassets */; };
 		CE6A53E42A7A3696004CB9B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6A53E22A7A3696004CB9B6 /* LaunchScreen.storyboard */; };
+		CE6A53EC2A7A4198004CB9B6 /* CollectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A53EB2A7A4198004CB9B6 /* CollectionTableViewCell.swift */; };
+		CE6A53EE2A7A4691004CB9B6 /* TileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A53ED2A7A4691004CB9B6 /* TileCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		CE6A53E02A7A3696004CB9B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE6A53E32A7A3696004CB9B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE6A53E52A7A3696004CB9B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE6A53EB2A7A4198004CB9B6 /* CollectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionTableViewCell.swift; sourceTree = "<group>"; };
+		CE6A53ED2A7A4691004CB9B6 /* TileCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				CE6A53E22A7A3696004CB9B6 /* LaunchScreen.storyboard */,
 				CE6A53E52A7A3696004CB9B6 /* Info.plist */,
 				CE6A53DD2A7A3695004CB9B6 /* Astra_Practice.xcdatamodeld */,
+				CE6A53EB2A7A4198004CB9B6 /* CollectionTableViewCell.swift */,
+				CE6A53ED2A7A4691004CB9B6 /* TileCollectionViewCell.swift */,
 			);
 			path = "Astra Practice";
 			sourceTree = "<group>";
@@ -141,6 +147,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE6A53EE2A7A4691004CB9B6 /* TileCollectionViewCell.swift in Sources */,
+				CE6A53EC2A7A4198004CB9B6 /* CollectionTableViewCell.swift in Sources */,
 				CE6A53DF2A7A3695004CB9B6 /* Astra_Practice.xcdatamodeld in Sources */,
 				CE6A53D92A7A3695004CB9B6 /* ViewController.swift in Sources */,
 				CE6A53D52A7A3695004CB9B6 /* AppDelegate.swift in Sources */,
