@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		CE15F4E92A827EA800D30578 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE15F4E82A827EA800D30578 /* AppDelegate.swift */; };
 		CE15F4EB2A827EA800D30578 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE15F4EA2A827EA800D30578 /* SceneDelegate.swift */; };
-		CE15F4ED2A827EA800D30578 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE15F4EC2A827EA800D30578 /* ViewController.swift */; };
 		CE15F4F02A827EA800D30578 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE15F4EE2A827EA800D30578 /* Main.storyboard */; };
 		CE15F4F22A827EA900D30578 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE15F4F12A827EA900D30578 /* Assets.xcassets */; };
 		CE15F4F52A827EA900D30578 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE15F4F32A827EA900D30578 /* LaunchScreen.storyboard */; };
+		CE15F4FC2A82AD9000D30578 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE15F4EC2A827EA800D30578 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,9 +60,9 @@
 				CE15F4EA2A827EA800D30578 /* SceneDelegate.swift */,
 				CE15F4EC2A827EA800D30578 /* ViewController.swift */,
 				CE15F4EE2A827EA800D30578 /* Main.storyboard */,
-				CE15F4F12A827EA900D30578 /* Assets.xcassets */,
 				CE15F4F32A827EA900D30578 /* LaunchScreen.storyboard */,
 				CE15F4F62A827EA900D30578 /* Info.plist */,
+				CE15F4F12A827EA900D30578 /* Assets.xcassets */,
 			);
 			path = "Constraint Demo";
 			sourceTree = "<group>";
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE15F4ED2A827EA800D30578 /* ViewController.swift in Sources */,
+				CE15F4FC2A82AD9000D30578 /* ViewController.swift in Sources */,
 				CE15F4E92A827EA800D30578 /* AppDelegate.swift in Sources */,
 				CE15F4EB2A827EA800D30578 /* SceneDelegate.swift in Sources */,
 			);
