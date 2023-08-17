@@ -51,6 +51,9 @@
 		CEB869D72A80083500331100 /* MyNotes */ = {
 			isa = PBXGroup;
 			children = (
+				CEB869ED2A800A6600331100 /* Models */,
+				CEB869EC2A800A5900331100 /* Controllers */,
+				CEB869EB2A800A5200331100 /* Views */,
 				CEB869D82A80083500331100 /* MyNotesApp.swift */,
 				CEB869DA2A80083500331100 /* ContentView.swift */,
 				CEB869DC2A80083600331100 /* Assets.xcassets */,
@@ -65,6 +68,27 @@
 				CEB869DF2A80083600331100 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CEB869EB2A800A5200331100 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CEB869EC2A800A5900331100 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CEB869ED2A800A6600331100 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
