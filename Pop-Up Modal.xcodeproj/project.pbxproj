@@ -13,6 +13,7 @@
 		CEC88D2A2A7D582D003001EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC88D282A7D582D003001EF /* Main.storyboard */; };
 		CEC88D2C2A7D582F003001EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC88D2B2A7D582F003001EF /* Assets.xcassets */; };
 		CEC88D2F2A7D582F003001EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC88D2D2A7D582F003001EF /* LaunchScreen.storyboard */; };
+		CEC88D372A7D591D003001EF /* popup.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC88D362A7D591D003001EF /* popup.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CEC88D2B2A7D582F003001EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEC88D2E2A7D582F003001EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEC88D302A7D582F003001EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC88D362A7D591D003001EF /* popup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popup.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				CEC88D222A7D582D003001EF /* AppDelegate.swift */,
 				CEC88D242A7D582D003001EF /* SceneDelegate.swift */,
 				CEC88D262A7D582D003001EF /* ViewController.swift */,
+				CEC88D362A7D591D003001EF /* popup.swift */,
 				CEC88D282A7D582D003001EF /* Main.storyboard */,
 				CEC88D2B2A7D582F003001EF /* Assets.xcassets */,
 				CEC88D2D2A7D582F003001EF /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				CEC88D272A7D582D003001EF /* ViewController.swift in Sources */,
 				CEC88D232A7D582D003001EF /* AppDelegate.swift in Sources */,
+				CEC88D372A7D591D003001EF /* popup.swift in Sources */,
 				CEC88D252A7D582D003001EF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

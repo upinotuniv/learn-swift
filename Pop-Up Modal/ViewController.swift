@@ -11,7 +11,12 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .white
+//        view.addSubview(pop)
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 1) {
+            let pop = Popup()
+            self.view.addSubview(pop)
+        }
     }
 
 
