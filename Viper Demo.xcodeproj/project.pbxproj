@@ -13,6 +13,11 @@
 		CE4112AC2A81D6C600534959 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4112AA2A81D6C600534959 /* Main.storyboard */; };
 		CE4112AE2A81D6C700534959 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE4112AD2A81D6C700534959 /* Assets.xcassets */; };
 		CE4112B12A81D6C700534959 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4112AF2A81D6C700534959 /* LaunchScreen.storyboard */; };
+		CE4112CD2A81E31800534959 /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4112CC2A81E31800534959 /* CalculatorView.swift */; };
+		CE4112CF2A81E34F00534959 /* CalculatorInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4112CE2A81E34F00534959 /* CalculatorInteractor.swift */; };
+		CE4112D12A81E36400534959 /* CalculatorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4112D02A81E36400534959 /* CalculatorPresenter.swift */; };
+		CE4112D32A81E38100534959 /* CalculatorEntitty.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4112D22A81E38100534959 /* CalculatorEntitty.swift */; };
+		CE4112D52A81E39900534959 /* CalculatorRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4112D42A81E39900534959 /* CalculatorRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		CE4112AD2A81D6C700534959 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE4112B02A81D6C700534959 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE4112B22A81D6C700534959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE4112CC2A81E31800534959 /* CalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
+		CE4112CE2A81E34F00534959 /* CalculatorInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorInteractor.swift; sourceTree = "<group>"; };
+		CE4112D02A81E36400534959 /* CalculatorPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorPresenter.swift; sourceTree = "<group>"; };
+		CE4112D22A81E38100534959 /* CalculatorEntitty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorEntitty.swift; sourceTree = "<group>"; };
+		CE4112D42A81E39900534959 /* CalculatorRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,7 @@
 		CE4112A32A81D6C600534959 /* Viper Demo */ = {
 			isa = PBXGroup;
 			children = (
+				CE4112B82A81D8F500534959 /* Modules */,
 				CE4112A42A81D6C600534959 /* AppDelegate.swift */,
 				CE4112A62A81D6C600534959 /* SceneDelegate.swift */,
 				CE4112A82A81D6C600534959 /* ViewController.swift */,
@@ -65,6 +76,66 @@
 				CE4112B22A81D6C700534959 /* Info.plist */,
 			);
 			path = "Viper Demo";
+			sourceTree = "<group>";
+		};
+		CE4112B82A81D8F500534959 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				CE4112B92A81D91300534959 /* Calculator */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		CE4112B92A81D91300534959 /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				CE4112BE2A81D98E00534959 /* Router */,
+				CE4112BD2A81D98100534959 /* Entity */,
+				CE4112BC2A81D97900534959 /* Presenter */,
+				CE4112BB2A81D93D00534959 /* Interactor */,
+				CE4112BA2A81D93200534959 /* View */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
+		CE4112BA2A81D93200534959 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE4112CC2A81E31800534959 /* CalculatorView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE4112BB2A81D93D00534959 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				CE4112CE2A81E34F00534959 /* CalculatorInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		CE4112BC2A81D97900534959 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				CE4112D02A81E36400534959 /* CalculatorPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		CE4112BD2A81D98100534959 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				CE4112D22A81E38100534959 /* CalculatorEntitty.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		CE4112BE2A81D98E00534959 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				CE4112D42A81E39900534959 /* CalculatorRouter.swift */,
+			);
+			path = Router;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +209,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE4112D32A81E38100534959 /* CalculatorEntitty.swift in Sources */,
+				CE4112D12A81E36400534959 /* CalculatorPresenter.swift in Sources */,
+				CE4112CD2A81E31800534959 /* CalculatorView.swift in Sources */,
 				CE4112A92A81D6C600534959 /* ViewController.swift in Sources */,
+				CE4112D52A81E39900534959 /* CalculatorRouter.swift in Sources */,
 				CE4112A52A81D6C600534959 /* AppDelegate.swift in Sources */,
+				CE4112CF2A81E34F00534959 /* CalculatorInteractor.swift in Sources */,
 				CE4112A72A81D6C600534959 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
