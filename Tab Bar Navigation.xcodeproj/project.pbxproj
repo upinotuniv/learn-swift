@@ -60,8 +60,8 @@
 				CEC88D462A7D7702003001EF /* SceneDelegate.swift */,
 				CEC88D482A7D7702003001EF /* ViewController.swift */,
 				CEC88D4A2A7D7702003001EF /* Main.storyboard */,
-				CEC88D4D2A7D7703003001EF /* Assets.xcassets */,
 				CEC88D4F2A7D7703003001EF /* LaunchScreen.storyboard */,
+				CEC88D4D2A7D7703003001EF /* Assets.xcassets */,
 				CEC88D522A7D7703003001EF /* Info.plist */,
 			);
 			path = "Tab Bar Navigation";
