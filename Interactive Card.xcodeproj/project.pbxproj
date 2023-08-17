@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE99975A2A7CEE4B00D0B60A /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = CE9997592A7CEE4B00D0B60A /* FirebaseAnalytics */; };
+		CE99975C2A7CEE4B00D0B60A /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = CE99975B2A7CEE4B00D0B60A /* FirebaseMessaging */; };
+		CE99975E2A7CFA5C00D0B60A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE99975D2A7CFA5C00D0B60A /* GoogleService-Info.plist */; };
 		CEEB8D052A7C9B290039D60B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB8D042A7C9B290039D60B /* AppDelegate.swift */; };
 		CEEB8D072A7C9B290039D60B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB8D062A7C9B290039D60B /* SceneDelegate.swift */; };
 		CEEB8D092A7C9B290039D60B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB8D082A7C9B290039D60B /* ViewController.swift */; };
 		CEEB8D0C2A7C9B290039D60B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEEB8D0A2A7C9B290039D60B /* Main.storyboard */; };
 		CEEB8D0E2A7C9B2A0039D60B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEEB8D0D2A7C9B2A0039D60B /* Assets.xcassets */; };
 		CEEB8D112A7C9B2A0039D60B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEEB8D0F2A7C9B2A0039D60B /* LaunchScreen.storyboard */; };
+		CEEB8D192A7CA0ED0039D60B /* UIPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB8D182A7CA0ED0039D60B /* UIPresentationController.swift */; };
+		CEEB8D1B2A7CAA9C0039D60B /* OverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEEB8D1A2A7CAA9C0039D60B /* OverlayView.xib */; };
+		CEEB8D1D2A7CB1220039D60B /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB8D1C2A7CB1220039D60B /* OverlayView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE99975D2A7CFA5C00D0B60A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/MyFolder/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CEEB8D012A7C9B290039D60B /* Interactive Card.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Interactive Card.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEEB8D042A7C9B290039D60B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEEB8D062A7C9B290039D60B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,9 @@
 		CEEB8D0D2A7C9B2A0039D60B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEEB8D102A7C9B2A0039D60B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEEB8D122A7C9B2A0039D60B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEEB8D182A7CA0ED0039D60B /* UIPresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPresentationController.swift; sourceTree = "<group>"; };
+		CEEB8D1A2A7CAA9C0039D60B /* OverlayView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OverlayView.xib; sourceTree = "<group>"; };
+		CEEB8D1C2A7CB1220039D60B /* OverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +41,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE99975C2A7CEE4B00D0B60A /* FirebaseMessaging in Frameworks */,
+				CE99975A2A7CEE4B00D0B60A /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,10 +71,14 @@
 				CEEB8D042A7C9B290039D60B /* AppDelegate.swift */,
 				CEEB8D062A7C9B290039D60B /* SceneDelegate.swift */,
 				CEEB8D082A7C9B290039D60B /* ViewController.swift */,
+				CEEB8D182A7CA0ED0039D60B /* UIPresentationController.swift */,
+				CEEB8D1C2A7CB1220039D60B /* OverlayView.swift */,
 				CEEB8D0A2A7C9B290039D60B /* Main.storyboard */,
-				CEEB8D0D2A7C9B2A0039D60B /* Assets.xcassets */,
+				CEEB8D1A2A7CAA9C0039D60B /* OverlayView.xib */,
 				CEEB8D0F2A7C9B2A0039D60B /* LaunchScreen.storyboard */,
+				CEEB8D0D2A7C9B2A0039D60B /* Assets.xcassets */,
 				CEEB8D122A7C9B2A0039D60B /* Info.plist */,
+				CE99975D2A7CFA5C00D0B60A /* GoogleService-Info.plist */,
 			);
 			path = "Interactive Card";
 			sourceTree = "<group>";
@@ -83,6 +99,10 @@
 			dependencies = (
 			);
 			name = "Interactive Card";
+			packageProductDependencies = (
+				CE9997592A7CEE4B00D0B60A /* FirebaseAnalytics */,
+				CE99975B2A7CEE4B00D0B60A /* FirebaseMessaging */,
+			);
 			productName = "Interactive Card";
 			productReference = CEEB8D012A7C9B290039D60B /* Interactive Card.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +131,9 @@
 				Base,
 			);
 			mainGroup = CEEB8CF82A7C9B290039D60B;
+			packageReferences = (
+				CE9997582A7CEE4B00D0B60A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = CEEB8D022A7C9B290039D60B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +149,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEEB8D112A7C9B2A0039D60B /* LaunchScreen.storyboard in Resources */,
+				CEEB8D1B2A7CAA9C0039D60B /* OverlayView.xib in Resources */,
+				CE99975E2A7CFA5C00D0B60A /* GoogleService-Info.plist in Resources */,
 				CEEB8D0E2A7C9B2A0039D60B /* Assets.xcassets in Resources */,
 				CEEB8D0C2A7C9B290039D60B /* Main.storyboard in Resources */,
 			);
@@ -141,6 +166,8 @@
 				CEEB8D092A7C9B290039D60B /* ViewController.swift in Sources */,
 				CEEB8D052A7C9B290039D60B /* AppDelegate.swift in Sources */,
 				CEEB8D072A7C9B290039D60B /* SceneDelegate.swift in Sources */,
+				CEEB8D192A7CA0ED0039D60B /* UIPresentationController.swift in Sources */,
+				CEEB8D1D2A7CB1220039D60B /* OverlayView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +383,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CE9997582A7CEE4B00D0B60A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CE9997592A7CEE4B00D0B60A /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE9997582A7CEE4B00D0B60A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		CE99975B2A7CEE4B00D0B60A /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE9997582A7CEE4B00D0B60A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CEEB8CF92A7C9B290039D60B /* Project object */;
 }
